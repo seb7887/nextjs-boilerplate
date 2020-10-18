@@ -5,6 +5,11 @@
 ## Stack
 
 - Typescript
+- ESLint
+- Prettier
+- Jest
+- Testing Library
+- Cypress
 - React.js
 - Next.js
 - TailwindCSS
