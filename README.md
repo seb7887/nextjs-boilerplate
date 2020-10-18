@@ -12,3 +12,5 @@
 - React Icons
 - React Table
 - useDarkMode
+- Formik
+- Yup
