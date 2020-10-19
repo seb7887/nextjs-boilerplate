@@ -15,12 +15,20 @@
     "test:e2e": "cypress run"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "clsx": "^1.1.1",
     "dotenv": "^8.2.0",
     "next": "^9.5.5",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "react-icons": "^3.11.0",
+    "react-table": "^7.6.0",
+    "swr": "^0.3.5",
+    "tailwindcss": "^1.9.4",
+    "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "@testing-library/cypress": "^7.0.1",
     "@testing-library/dom": "^7.26.0",
     "@testing-library/jest-dom": "^5.11.4",
@@ -33,6 +41,7 @@
     "@types/react-dom": "^16.9.8",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
+    "autoprefixer": "9.8.6",
     "babel-jest": "^26.5.2",
     "cypress": "^5.4.0",
     "eslint": "^7.11.0",
@@ -43,8 +52,11 @@
     "eslint-plugin-unicorn": "^23.0.0",
     "faker": "^5.1.0",
     "jest": "^26.5.3",
+    "postcss-nested": "4.2.3",
+    "postcss-selector-parser": "6.0.2",
     "prettier": "^2.1.2",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "typescript-plugin-css-modules": "^2.7.0"
   },
   "jest": {
     "roots": [
