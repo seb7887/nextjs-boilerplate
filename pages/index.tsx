@@ -1,6 +1,6 @@
 import React from 'react'
 import { NextPage } from 'next'
-import Button from '@components/Button'
+import { Button } from 'components/Button'
 
 const HomePage: NextPage = () => {
   return (
