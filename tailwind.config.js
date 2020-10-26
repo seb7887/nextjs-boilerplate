@@ -67,6 +67,8 @@ module.exports = {
     },
   },
   variants: {
+    margin: ["responsive", "first"],
+    fontWeight: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     textColor: ["responsive", "dark", "hover", "focus"],
     backgroundColor: ["responsive", "dark", "hover", "focus"],
     typography: ["responsive", "dark"],

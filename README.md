@@ -10,6 +10,7 @@
 - Jest
 - Testing Library
 - Cypress
+- Storybook
 - React.js
 - Next.js
 - TailwindCSS
@@ -19,3 +20,5 @@
 - useDarkMode
 - Formik
 - Yup
+- React Table
+- NProgress

@@ -1,0 +1,15 @@
+.section {
+  @apply max-w-prose mx-auto px-10;
+}
+
+.nav {
+  @apply flex justify-between;
+
+  div {
+    @apply flex items-center p-4;
+  }
+
+  a {
+    @apply font-semibold;
+  }
+}
