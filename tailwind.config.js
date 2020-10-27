@@ -72,6 +72,7 @@ module.exports = {
     textColor: ["responsive", "dark", "hover", "focus"],
     backgroundColor: ["responsive", "dark", "hover", "focus"],
     typography: ["responsive", "dark"],
+    textDecoration: ["responsive", "hover", "focus", 'active'],
   },
   plugins: [
     plugin(function ({ addVariant, prefix }) {

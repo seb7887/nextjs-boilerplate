@@ -8,12 +8,12 @@ export const MainLayout: React.FC = ({ children }) => (
     <nav className={styles.nav}>
       <div>
         <Link href="/">
-          <a>
+          <a className="transition duration-200 hover:underline hover:text-gray-700">
             Home
           </a>
         </Link>
         <Link href="/test-api">
-          <a>
+          <a className="transition duration-200 hover:underline hover:text-gray-700">
             Test API
           </a>
         </Link>

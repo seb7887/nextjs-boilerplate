@@ -10,6 +10,6 @@
   }
 
   a {
-    @apply font-semibold;
+    @apply font-semibold mr-4 transition duration-300;
   }
 }
