@@ -71,6 +71,7 @@
     "eslint-plugin-unicorn": "^23.0.0",
     "faker": "^5.1.0",
     "jest": "^26.5.3",
+    "jest-fetch-mock": "^3.0.3",
     "postcss-loader": "^4.0.4",
     "postcss-nested": "4.2.3",
     "postcss-selector-parser": "6.0.2",
