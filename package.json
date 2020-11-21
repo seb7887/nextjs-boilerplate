@@ -93,14 +93,16 @@
       "tsx",
       "js"
     ],
+    "moduleNameMapper": {
+      "components/(.*)": "<rootDir>/components/$1"
+    },
     "transform": {
-      "^.+\\.(ts|tsx)$": "babel-jest"
+      "^.+\\.(ts|tsx)$": "babel-jest",
+      "^.+\\.css$": "<rootDir>/config/cssTransform.js"
     },
     "testPathIgnorePatterns": [
-      "<rootDir>[/\\\\](node_modules|.next|cypress)[/\\\\]"
-    ],
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(ts|tsx)$"
+      "<rootDir>[/\\\\](node_modules|.next|cypress)[/\\\\]",
+      "^.+\\.module.\\.(css|sass|scss)$"
     ]
   }
 }
