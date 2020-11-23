@@ -11,12 +11,7 @@ const IndexPage: NextPage = () => {
       <MainLayout>
         <h3 className="text-4xl font-extrabold">Hello World!</h3>
         <p className="mb-4">Reality is what you can get away with.</p>
-        <Image
-          alt="Next.js logo"
-          src="/vercel.png"
-          width={400}
-          height={400}
-        />
+        <Image alt="Next.js logo" src="/vercel.png" width={400} height={400} />
       </MainLayout>
     </>
   )
